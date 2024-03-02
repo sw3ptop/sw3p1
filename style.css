@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins' , cursive;
+    box-sizing: border-box;
+}
+
+body{
+    background: #002339;
+    color: #fff;
+}
+.container{
+    margin: 15%;
+    width: 100%;
+    max-width: 800px;
+}
+.display{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background: #fff;
+    color:#333;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 15px;
+    border-radius: 15px;
+}
+.container h1{
+    font-weight: 500;
+    font-size: 45px;
+
+}
+.container h1 span{
+    color: #019f55;
+    border-bottom: 4px solid #019f55;
+    padding-bottom: 7px;
+}
+.display img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.display input{
+    border: 0;
+    outline: 0;
+    font-size: 24px;
+}
+
+.container button img{
+    width: 28px;
+    margin-right:10px ;
+}
+.container button{
+    border: 0;
+    outline: 0;
+    background: #019f55;
+    font-size: 22px;
+    font-weight: 300;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px 26px;
+    border-radius: 5px;
+    cursor: pointer
+}
+.message {
+    opacity: 0;
+    transition: opacity 1s;
+    font-family: 'Poppins' , cursive;
+    font-size: 36px;
+    padding: 0px 350px;
+    margin-top: -60px;
+
+
+}
+.message.animate {
+    opacity: 2;
+    animation-duration: 2s;
+    animation: bounce
+;
+
+}
+
